@@ -1,5 +1,4 @@
 {
-  "name": "Hello Docker",
   "private": true,
   "version": "0.0.1",
   "description": "Docker CI demo",
