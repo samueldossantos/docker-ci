@@ -1,11 +1,11 @@
 # The deployment section defines the circleci env variable 
 # required for trigger docker hub integration.
 
-#deployment:
-#  dockerhub:
-#    branch: master
-#    commands:
-#      - $DOCKER_HUB_TRIGGER
+deployment:
+  dockerhub:
+    branch: master
+    commands:
+      - $DOCKER_HUB_TRIGGER
 
 test:
   override:    
