@@ -1,0 +1,15 @@
+{
+  "name": "Hello Docker",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Docker CI demo",
+  "main": "app.js",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "express": "3.2.4",
+    "jade": "1.11.0",
+    "mocha": "1.20.1",
+    "supertest": "1.1.0"
+  }
+}
