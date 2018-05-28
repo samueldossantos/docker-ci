@@ -3,7 +3,7 @@ FROM centos:centos6
 MAINTAINER sdsdev7@gmail.com
 
 # Enable EPEL for Node.js
-RUN yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+RUN rpm -UvH https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 #RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 # http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 
